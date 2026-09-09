@@ -131,6 +131,64 @@ def assign_fixed_order(entries: list, fixed_cfg: list) -> int:
     return marked
 
 
+SUSPICIOUS = ("орбита", "дубль", "international", "+", "(челябинск", "(новокузнецк", "магазин")
+
+
+def load_epg_channels(url: str, timeout: int) -> dict:
+    """Скачивает XMLTV (gzip или xml) и возвращает {норм-имя: (id, display-name)}.
+
+    При конфликте имён остаётся первая запись с «чистым» именем.
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=timeout * 4, context=SSL_CTX) as r:
+        raw = r.read()
+    if raw[:2] == b"\x1f\x8b":
+        import gzip
+        raw = gzip.decompress(raw)
+    text = raw.decode("utf-8", "replace")
+    channels = {}
+    for m in re.finditer(r'<channel id="([^"]+)">\s*<display-name[^>]*>([^<]+)</display-name>', text):
+        cid, name = m.group(1), m.group(2)
+        key = norm_name(name)
+        if not key or key in channels:
+            continue
+        channels[key] = (cid, name)
+    return channels
+
+
+def match_epg(entries: list, epg: dict) -> int:
+    """Сопоставляет каналы с EPG по имени; переписывает tvg-id. Возвращает число совпадений.
+
+    Приоритет: точное совпадение нормализованных имён, затем частичное
+    (одно имя начинается с другого), «подозрительные» варианты (орбиты,
+    дубли, международные версии) штрафуются.
+    """
+    matched = 0
+    for e in entries:
+        mine = norm_name(e["name"])
+        if not mine:
+            continue
+        best, best_score = None, 0
+        for key, (cid, dname) in epg.items():
+            if key == mine:
+                best, best_score = cid, 3
+                break
+            score = 0
+            if key.startswith(mine) or mine.startswith(key):
+                score = 1
+            if not score:
+                continue
+            low = dname.lower()
+            if any(s in low for s in SUSPICIOUS):
+                score = 0.5
+            if score > best_score:
+                best, best_score = cid, score
+        if best:
+            e["attrs"]["tvg-id"] = best
+            matched += 1
+    return matched
+
+
 def build(cfg: dict, out_dir: Path) -> None:
     timeout = int(cfg.get("timeout", 8))
     retries = int(cfg.get("retries", 1))
@@ -182,7 +240,20 @@ def build(cfg: dict, out_dir: Path) -> None:
     # Сборка выходного плейлиста: сначала фиксированные слоты (мультиплексы +
     # Чаваш ЕН), затем остальные — по группам, «местные» в конце.
     fixed_cfg = cfg.get("fixed_order") or []
+    final = (alive if drop_dead else merged)
     marked = assign_fixed_order(final, fixed_cfg)
+
+    # EPG: сопоставление имён с XMLTV-источником, переписывание tvg-id
+    epg_cfg = cfg.get("epg") or {}
+    epg_url, epg_matched = epg_cfg.get("url"), None
+    if epg_url:
+        try:
+            epg = load_epg_channels(epg_url, timeout)
+            epg_matched = match_epg(final, epg)
+            print(f"[EPG] сопоставлено {epg_matched} из {len(final)} каналов", file=sys.stderr)
+        except Exception as exc:
+            print(f"[EPG] не удалось загрузить {epg_url}: {exc}", file=sys.stderr)
+            epg_url = None
 
     def group_rank(e):
         g = e["group"].lower()
@@ -193,12 +264,17 @@ def build(cfg: dict, out_dir: Path) -> None:
     final.sort(key=lambda e: (e.get("_slot", 999), group_rank(e), e["group"], e["name"]))
 
     now = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
+    header = "#EXTM3U"
+    if epg_url:
+        header += f' x-tvg-url="{epg_url}"'
     out = [
-        f"#EXTM3U",
+        header,
         f"# Сборка {now}; каналов: {len(final)} (проверено живых) из "
         f"{len(merged)} уникальных; источники: {', '.join(s['name'] for s in cfg['sources'])}",
         f"# Порядок: эфирные мультиплексы (1-20 по списку РФ) и местные топ-каналы впереди; "
         f"номера каналов в атрибуте tvg-chno",
+        (f"# Телепрограмма: {epg_url}; tvg-id переписаны под ID источника EPG"
+         if epg_url else "# Телепрограмма: источник не настроен"),
     ]
     for e in final:
         attrs = e["attrs"].copy()
@@ -218,6 +294,7 @@ def build(cfg: dict, out_dir: Path) -> None:
         "dead": len(dead),
         "published": len(final),
         "sources": per_source,
+        "epg": {"url": epg_url, "matched": epg_matched},
         "dead_channels": [
             {"name": e["name"], "source": e["source"], "reason": reasons[e["url"]]}
             for e in dead
