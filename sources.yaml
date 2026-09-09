@@ -1,0 +1,24 @@
+# Источники плейлистов. Порядок = приоритет: при дублировании канала
+# (по tvg-id или имени) остаётся запись из более раннего источника.
+sources:
+  - name: IPTVru-stable
+    url: https://smolnp.github.io/IPTVru/IPTVstable.m3u8
+    # Федеральные + местные (в т.ч. Чаваш ЕН) — основной источник
+  - name: iptv-org-ru
+    url: https://iptv-org.github.io/iptv/countries/ru.m3u
+    # Общедоступные каналы РФ — добирает то, чего нет в IPTVru
+  - name: iptv-org-ru-extra
+    url: https://iptv-org.github.io/iptv/languages/rus.m3u
+    # Русскоязычные каналы (включая зарубежные) — на добор
+
+# Мёртвые потоки: true = удалять из итогового плейлиста, false = помечать [DEAD]
+drop_dead: true
+
+# Повторная проверка упавших потоков (защита от ложных срабатываний)
+retries: 1
+
+# Таймаут проверки одного потока, секунд
+timeout: 8
+
+# Параллельных проверок одновременно
+concurrency: 24

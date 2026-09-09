@@ -1,0 +1,50 @@
+name: update-playlist
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # ежедневно в 05:00 UTC (= 08:00 МСК)
+  workflow_dispatch: {}    # + ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить зависимости
+        run: pip3 install pyyaml
+
+      - name: Собрать и проверить плейлист
+        run: python3 playlist_builder.py sources.yaml dist
+
+      - name: Закоммитить изменения
+        run: |
+          git config user.name "playlist-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist/
+          git diff --cached --quiet && echo "Без изменений" || git commit -m "Обновление плейлиста $(date -u +%F)"
+          git push
+
+      - name: Настроить Pages
+        uses: actions/configure-pages@v5
+
+      - name: Загрузить артефакт Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Опубликовать на GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
