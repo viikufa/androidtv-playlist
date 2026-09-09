@@ -102,6 +102,35 @@ def norm_key(e: dict) -> str:
     return "name:" + name
 
 
+def norm_name(s: str) -> str:
+    """Нормализация имени канала: нижний регистр, ё→е, только буквы/цифры, без «hd»."""
+    s = s.lower().replace("ё", "е")
+    s = re.sub(r"[^a-zа-я0-9]", "", s)
+    return re.sub(r"hd$", "", s)
+
+
+def assign_fixed_order(entries: list, fixed_cfg: list) -> int:
+    """Помечает каналы слотами fixed_order (e["_slot"]). Возвращает число помеченных.
+
+    Кандидат — первое (по приоритету источников) неназначенное совпадение.
+    Слоты привязаны к записи канала, не к URL: один поток может числиться
+    за несколькими каналами-дубликатами.
+    """
+    marked = 0
+    used = set()
+    for slot, item in enumerate(fixed_cfg):
+        variants = {norm_name(v) for v in item.get("match", [])}
+        for e in entries:
+            if id(e) in used:
+                continue
+            if norm_name(e["name"]) in variants:
+                e["_slot"] = slot
+                used.add(id(e))
+                marked += 1
+                break
+    return marked
+
+
 def build(cfg: dict, out_dir: Path) -> None:
     timeout = int(cfg.get("timeout", 8))
     retries = int(cfg.get("retries", 1))
@@ -150,24 +179,32 @@ def build(cfg: dict, out_dir: Path) -> None:
         final = merged
     dead = [e for e in merged if not results[e["url"]]]
 
-    # Сборка выходного плейлиста: сортировка — федеральные/не-местные группы вперёд
+    # Сборка выходного плейлиста: сначала фиксированные слоты (мультиплексы +
+    # Чаваш ЕН), затем остальные — по группам, «местные» в конце.
+    fixed_cfg = cfg.get("fixed_order") or []
+    marked = assign_fixed_order(final, fixed_cfg)
+
     def group_rank(e):
         g = e["group"].lower()
         if "местн" in g or "local" in g or "регион" in g:
             return 1
         return 0
 
-    final.sort(key=lambda e: (group_rank(e), e["group"], e["name"]))
+    final.sort(key=lambda e: (e.get("_slot", 999), group_rank(e), e["group"], e["name"]))
 
     now = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
     out = [
         f"#EXTM3U",
         f"# Сборка {now}; каналов: {len(final)} (проверено живых) из "
         f"{len(merged)} уникальных; источники: {', '.join(s['name'] for s in cfg['sources'])}",
+        f"# Порядок: эфирные мультиплексы (1-20 по списку РФ) и местные топ-каналы впереди; "
+        f"номера каналов в атрибуте tvg-chno",
     ]
     for e in final:
         attrs = e["attrs"].copy()
         attrs["group-title"] = e["group"] or "Прочее"
+        if "_slot" in e:
+            attrs["tvg-chno"] = str(e["_slot"] + 1)
         attr_str = " ".join(f'{k}="{v}"' for k, v in attrs.items())
         out.append(f"#EXTINF:-1 {attr_str},{e['name']}")
         out.append(e["url"])
