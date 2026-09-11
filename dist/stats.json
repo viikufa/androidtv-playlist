@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-10 09:19 UTC",
+ "generated": "2026-09-11 09:18 UTC",
  "total_unique": 848,
- "alive": 698,
- "dead": 150,
- "published": 698,
+ "alive": 685,
+ "dead": 163,
+ "published": 685,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -22,8 +22,8 @@
   }
  ],
  "epg": {
-  "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 214
+  "url": null,
+  "matched": null
  },
  "dead_channels": [
   {
@@ -137,6 +137,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": ".red (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "alpha Cinema (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -163,6 +168,11 @@
   },
   {
    "name": "Carousel (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "DocuBox Russia",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -203,6 +213,11 @@
   },
   {
    "name": "Mosfilm Gold Collection (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "National Geographic (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -562,7 +577,52 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Сити Эдем Бирма Play [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем КиноДетектив [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем КиноКлассика [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем КиноМистика [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Сити Эдем КиноСемья [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем КиноЭкшен [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем Классическая Музыка [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем Рецепты Гурмана [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем ТВ Христианский [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем ТелеНовелла [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -712,11 +772,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "TV1 KG (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "TV15 (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -728,6 +783,16 @@
   },
   {
    "name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Undefined\",TVRUS",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Viasat Kino (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Viasat Kino Action (576p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
