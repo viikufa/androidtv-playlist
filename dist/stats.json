@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-12 08:58 UTC",
+ "generated": "2026-09-13 09:55 UTC",
  "total_unique": 849,
- "alive": 679,
- "dead": 170,
- "published": 679,
+ "alive": 678,
+ "dead": 171,
+ "published": 678,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -23,7 +23,7 @@
  ],
  "epg": {
   "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 213
+  "matched": 214
  },
  "dead_channels": [
   {
@@ -298,11 +298,6 @@
   },
   {
    "name": "Solnce (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "SONGTV Russia",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -662,6 +657,16 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Сити Эдем ТВ Христианский [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Сити Эдем ТелеНовелла [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "СТАРТ Триумф",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -727,12 +732,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Belarus-3 HD (1080p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belarus-4 Gomel",
+   "name": "Belarus-1 HD (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -768,6 +768,11 @@
   },
   {
    "name": "Luxe TV (1080p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Maná Tserkov' Onlayn (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },

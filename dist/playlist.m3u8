@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://www.teleguide.info/download/new3/xmltv.xml.gz"
-# Сборка 2026-09-12 08:58 UTC; каналов: 679 (проверено живых) из 849 уникальных; источники: IPTVru-stable, iptv-org-ru, iptv-org-ru-extra
+# Сборка 2026-09-13 09:55 UTC; каналов: 678 (проверено живых) из 849 уникальных; источники: IPTVru-stable, iptv-org-ru, iptv-org-ru-extra
 # Порядок: эфирные мультиплексы (1-20 по списку РФ) и местные топ-каналы впереди; номера каналов в атрибуте tvg-chno
 # Телепрограмма: https://www.teleguide.info/download/new3/xmltv.xml.gz; tvg-id переписаны под ID источника EPG
 #EXTINF:-1 tvg-id="1" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные" tvg-chno="1",Первый канал HD
@@ -92,6 +92,8 @@ https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 http://89.104.114.24:8080/art/index.m3u8
 #EXTINF:-1 tvg-id="ATR.ua@SD" tvg-logo="https://i.imgur.com/lRJAXC7.png" group-title="Culture",ATR (1080p)
 http://stream.mcquack.net/244/index.m3u8
+#EXTINF:-1 tvg-id="Belarus3.by@HD" tvg-logo="https://i.imgur.com/JkcDycn.png" group-title="Culture",Belarus-3 HD (1080p) [Not 24/7]
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="502011" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="Culture",NTV Mir (576p)
 http://5.188.159.128:8070/ntvmir_TV/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png" group-title="Culture",Russia-K (576p)
@@ -224,8 +226,8 @@ https://fs.uplink.kz/almaty/mono.m3u8?token=onlinetv
 https://gcmx3v3owcj.a.trbcdn.net/livemaster/ba7pu_fgej0zelpw.smil/playlist.m3u8?blstid=null
 #EXTINF:-1 tvg-id="Belarus1.by@SD" tvg-logo="https://i.imgur.com/sUD9t5j.png" group-title="General",Belarus-1 (1080p)
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Belarus1.by@HD" tvg-logo="https://i.imgur.com/sUD9t5j.png" group-title="General",Belarus-1 HD (1080p)
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Belarus4.by@Gomel" tvg-logo="https://i.imgur.com/XNkQrMr.png" group-title="General",Belarus-4 Gomel
+https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel10.ru@SD" tvg-logo="https://i.imgur.com/k8JjFDw.png" group-title="General",Channel 10 (576i)
 https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=2072611029&s=eqlTXebDP9wSWTZgre6BwQ&scheme=https
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",Channel 5 International (576p)
@@ -412,8 +414,6 @@ https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 http://trk555.tv:8888/live
 #EXTINF:-1 tvg-id="Sochi24.ru@SD" tvg-logo="https://i.imgur.com/iwWxkl6.png" group-title="General;News",Сочи 24 HD (720p)
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CityEdenTV.ru@HD" tvg-logo="https://i.imgur.com/X9kACKi.png" group-title="General;Religious",Сити Эдем ТВ Христианский [Not 24/7]
-https://cityeden.catcast.tv/content/34246/index.m3u8
 #EXTINF:-1 tvg-id="2042" tvg-logo="https://i.imgur.com/i2AP0hp.png" group-title="Kids",Ani (576p)
 http://46.32.176.50/anitv/index.m3u8
 #EXTINF:-1 tvg-id="Aqlvoy.uz@SD" tvg-logo="https://i.imgur.com/ekF5cAi.png" group-title="Kids",Aqlvoy
@@ -642,6 +642,8 @@ http://stream.mcquack.net/153/index.m3u8
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
 #EXTINF:-1 tvg-id="2194" tvg-logo="https://i.imgur.com/ZkJ3Rh9.png" group-title="Music",Russian MusicBox (576p)
 http://stream.mcquack.net/319/index.m3u8
+#EXTINF:-1 tvg-id="2486" tvg-logo="https://i.imgur.com/nM7LbmV.png" group-title="Music",SONGTV Russia
+https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
 #EXTINF:-1 tvg-id="ShansonTV.ru@SD" tvg-logo="https://i.imgur.com/Fk4sd8t.png" group-title="Music",Shanson TV (576p)
 http://catchup.videoline.ru/shanson/index.m3u8
 #EXTINF:-1 tvg-id="Muzyka1.ru@International" tvg-logo="https://i.imgur.com/DIKe5vA.png" group-title="Music",Музыка 1 International [Not 24/7]
@@ -728,8 +730,6 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
 #EXTINF:-1 tvg-id="LifeTV.ee@SD" tvg-logo="https://i.imgur.com/JhrTB82.png" group-title="Religious",Life TV (432p) [Not 24/7]
 http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
-#EXTINF:-1 tvg-id="ManaTserkovOnlayn.pt@SD" tvg-logo="https://i.imgur.com/PruXLqS.png" group-title="Religious",Maná Tserkov' Onlayn (1080p) [Not 24/7]
-https://w2.manasat.com/tserkov-online/smil:tserkov-online.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Spas.ru@SD" tvg-logo="https://i.imgur.com/yY39nMg.png" group-title="Religious",Spas (576p)
 http://hls127.freeott.top:8080/Spas/video.m3u8
 #EXTINF:-1 tvg-id="TBNBaltia.ee@SD" tvg-logo="https://i.imgur.com/rKBaK56.png" group-title="Religious",TBN Baltia (1080p)
@@ -786,8 +786,6 @@ https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
 http://83.228.75.166:8000/play/a0aq
 #EXTINF:-1 tvg-id="2452" tvg-logo="https://i.imgur.com/8yXZET5.png" group-title="Series",viju+ Serial HD (1080p)
 http://stream.mcquack.net/311/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenTeleNovella.ru@HD" tvg-logo="https://i.imgur.com/mT5liTh.png" group-title="Series",Сити Эдем ТелеНовелла [Not 24/7]
-https://cityeden.catcast.tv/content/46209/index.m3u8
 #EXTINF:-1 tvg-id="SmotrimChestnyyDetektiv.ru@SD" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/svg/444/241/8.svg" group-title="Series",Смотрим Честный Детектив (1080p)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Leomax24.ru@SD" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Shop",Leomax 24 (1080p)
