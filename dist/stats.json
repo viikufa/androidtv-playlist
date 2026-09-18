@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-17 09:46 UTC",
- "total_unique": 849,
- "alive": 662,
- "dead": 187,
- "published": 662,
+ "generated": "2026-09-18 09:20 UTC",
+ "total_unique": 892,
+ "alive": 735,
+ "dead": 157,
+ "published": 735,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,17 +13,17 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 481
+   "entries": 517
   },
   {
    "source": "iptv-org-ru-extra",
    "status": "ok",
-   "entries": 146
+   "entries": 153
   }
  ],
  "epg": {
-  "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 213
+  "url": null,
+  "matched": null
  },
  "dead_channels": [
   {
@@ -122,11 +122,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",5 Канал",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "7TV (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -137,22 +132,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": ".red (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "alpha Cinema (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": "Amedia 1 (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Amedia 2 (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -177,11 +162,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "DocuBox Russia",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "English Class HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -193,6 +173,11 @@
   },
   {
    "name": "FAN (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Fast&FunBox HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -212,17 +197,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Lapki Live (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Match! Strana (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Mir Seriala (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -327,7 +302,17 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "SONGTV Russia",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "STS kids (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "STS kids HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -342,22 +327,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Terra HD (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "TNT HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": "Travel+Adventure (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Unikum (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -408,11 +383,6 @@
   },
   {
    "name": "Zvezda Plus (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Авто Плюс (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -482,11 +452,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Иллюзион+ (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Кавказ 24 (Ставрополь) (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -503,16 +468,6 @@
   },
   {
    "name": "КИНОСАТ (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Крым 24",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Кто есть Кто (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -617,11 +572,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Русский Экстрим (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Самара 24 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -642,102 +592,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Сити Эдем Play Христианский Музыкальный [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем АвтоГид [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем Бирма Play [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноАзия [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноАрт [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноДетектив [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноДок [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноДрама [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноКлассика [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноКомедия [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноМистика [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Сити Эдем КиноСемья [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноФантастика [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем КиноЭкшен [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем Классическая Музыка [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем МедЗдрав [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем Рецепты Гурмана [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем Сиртаки ТВ [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем ТВ Христианский [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Сити Эдем ТелеНовелла [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -752,12 +607,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Телепутешествия (576p)",
+   "name": "Точка ТВ (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Точка ТВ (576p)",
+   "name": "Уникум (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -817,7 +672,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Belarus-4 Vitebsk (1080p)",
+   "name": "Belarus-4 Gomel",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -828,11 +683,6 @@
   },
   {
    "name": "CGTN Русский (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
