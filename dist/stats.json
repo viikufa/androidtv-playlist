@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-20 09:34 UTC",
- "total_unique": 892,
- "alive": 704,
- "dead": 188,
- "published": 704,
+ "generated": "2026-09-21 10:21 UTC",
+ "total_unique": 893,
+ "alive": 703,
+ "dead": 190,
+ "published": 703,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -18,12 +18,12 @@
   {
    "source": "iptv-org-ru-extra",
    "status": "ok",
-   "entries": 153
+   "entries": 154
   }
  ],
  "epg": {
-  "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 180
+  "url": null,
+  "matched": null
  },
  "dead_channels": [
   {
@@ -328,11 +328,6 @@
   },
   {
    "name": "Kluch (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Kongress TV (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -777,8 +772,18 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Zvezda (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Zvezda Plus (576p)",
    "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "100% NEWS (576p)",
+   "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
@@ -802,12 +807,17 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "ARTN TV (1080p) [Not 24/7]",
+   "name": "Balti TV (1080p) [Geo-blocked]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Balti TV (1080p) [Geo-blocked]",
+   "name": "Belarus-1 HD (1080p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Belarus-2 HD (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -877,11 +887,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "MTRK (576p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Music (480p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -903,6 +908,11 @@
   },
   {
    "name": "Next TV (1080p) [Not 24/7]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Obshchestvennoe Nezavisimoe Televidenie (576p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
