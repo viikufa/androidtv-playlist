@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-24 09:41 UTC",
+ "generated": "2026-09-25 09:58 UTC",
  "total_unique": 900,
- "alive": 698,
- "dead": 202,
- "published": 698,
+ "alive": 706,
+ "dead": 194,
+ "published": 706,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -32,16 +32,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Конгресс ТВ",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "ТАСС",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Старт",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -58,11 +48,6 @@
   },
   {
    "name": "Живая Планета",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Просвещение",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -92,11 +77,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Продвижение",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Сарафан",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -107,12 +87,22 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "ТНТ",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "FON music",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": "Muzzone",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Жара",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -132,11 +122,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "RTД HD",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Viju EXPLORE",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -144,16 +129,6 @@
   {
    "name": "РЖД HD",
    "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Осетия-Ирыстон",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
-   "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
@@ -173,11 +148,6 @@
   },
   {
    "name": "Amedia Premium (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Arkhyz 24 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -372,11 +342,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Krik-TV (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "LenTV24",
    "source": "iptv-org-ru",
    "reason": "не похож на поток; не похож на поток"
@@ -522,17 +487,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Pro Business (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Pro Lyubov (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Prosveshchenie (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -548,21 +503,6 @@
   },
   {
    "name": "REN TV (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "like Gecko) Chrome/146.0.0.0 Safari/537.36 OPR/130.0.0.0 (Edition std-2)\" group-title=\"General\",Rossiya 1 Vainah (576i)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "RT Balkan (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "RT Documentary Russian (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -667,11 +607,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Shanson TV (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Shayan TV (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -702,12 +637,17 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Sportivnyy (1080p)",
+   "name": "Star Cinema",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Start Triumf",
+   "name": "Star Family (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Start Triumf (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -892,7 +832,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Belarus-3 HD (1080p) [Not 24/7]",
+   "name": "Belarus-4 Gomel",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -912,12 +852,22 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Dacha (1080p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "ElTR (480p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Movies;Series\",FilmUADrama (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -933,11 +883,6 @@
   },
   {
    "name": "like Gecko) Chrome/124.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Kvartal TV",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Love Nature HD (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -977,6 +922,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Naxcivan TV (720p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Next TV (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -997,6 +947,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "RAZ 3 International",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports+ Ukraine (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1012,6 +967,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "TV1.KG (1080p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "TV15 (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1023,6 +983,16 @@
   },
   {
    "name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Undefined\",TVRUS",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Viasat Kino (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Viasat Kino Action (576p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
