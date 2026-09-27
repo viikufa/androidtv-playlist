@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-26 09:40 UTC",
- "total_unique": 900,
- "alive": 654,
- "dead": 246,
- "published": 654,
+ "generated": "2026-09-27 10:20 UTC",
+ "total_unique": 901,
+ "alive": 660,
+ "dead": 241,
+ "published": 660,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -18,7 +18,7 @@
   {
    "source": "iptv-org-ru-extra",
    "status": "ok",
-   "entries": 155
+   "entries": 156
   }
  ],
  "epg": {
@@ -222,6 +222,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Crimea 24",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Da Vinci (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -258,11 +263,6 @@
   },
   {
    "name": "Don 24 (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Movies\",Dorama HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -407,11 +407,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Kinopremyera (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "KinoSat (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -428,6 +423,11 @@
   },
   {
    "name": "Kluch (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Kongress TV (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -787,6 +787,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "SONGTV Russia",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Spas (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1018,11 +1023,6 @@
   },
   {
    "name": "Ala-Too 24 (480p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "ARTN TV (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
