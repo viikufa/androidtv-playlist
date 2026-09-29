@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-28 11:23 UTC",
- "total_unique": 904,
- "alive": 668,
- "dead": 236,
- "published": 668,
+ "generated": "2026-09-29 11:01 UTC",
+ "total_unique": 906,
+ "alive": 666,
+ "dead": 240,
+ "published": 666,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,7 +13,7 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 524
+   "entries": 526
   },
   {
    "source": "iptv-org-ru-extra",
@@ -117,17 +117,27 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Открытый мир",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "РЖД HD",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Городской Телеканал-Ярославль",
-   "source": "IPTVru-stable",
+   "name": "15+ Music (1080p)",
+   "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "15+ Music (1080p)",
+   "name": ".black (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": ".sci-fi (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -218,6 +228,11 @@
   },
   {
    "name": "City Eden KinoSemya [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Crimea 24",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -402,22 +417,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Kinopremyera (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "KinoSat (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": "Kinoseriya (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Kinosvidanie (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -593,6 +598,16 @@
   },
   {
    "name": "Ocean-TV (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Oplot 2 (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Otkritiy mir. Zdorove (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -1008,21 +1023,6 @@
   },
   {
    "name": "312 TV (406p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "+TV (576p) [Geo-blocked]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Ala-Too 24 (480p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "ARTN TV (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
