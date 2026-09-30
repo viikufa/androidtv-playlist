@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29 11:01 UTC",
+ "generated": "2026-09-30 10:52 UTC",
  "total_unique": 906,
  "alive": 666,
  "dead": 240,
@@ -97,6 +97,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Жар Птица",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Муз ТВ",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -117,12 +122,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Открытый мир",
+   "name": "РЖД HD",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "РЖД HD",
+   "name": "Астрахань 24",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -132,12 +137,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": ".black (576p)",
+   "name": ".red (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": ".sci-fi (576p)",
+   "name": ".red HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -163,6 +168,11 @@
   },
   {
    "name": "Arktika 24 (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Astrahan 24 (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -427,6 +437,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Kinosvidanie (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Kluch (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -607,7 +622,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Otkritiy mir. Zdorove (576p)",
+   "name": "Oplot TV (1080p) [Geo-blocked]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -797,11 +812,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "SONGTV Russia",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Spas (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -852,6 +862,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "T24 (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Teatr (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -898,6 +913,11 @@
   },
   {
    "name": "Travel+Adventure (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "TV 21 (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -1004,26 +1024,6 @@
   {
    "name": "Zoo TV (576p)",
    "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Zvezda HD (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Zvezda Plus (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "312 Kino (406p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "312 TV (406p)",
-   "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
  ]
