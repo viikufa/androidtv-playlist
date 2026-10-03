@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-02 10:50 UTC",
+ "generated": "2026-10-03 10:10 UTC",
  "total_unique": 908,
- "alive": 668,
- "dead": 240,
- "published": 668,
+ "alive": 664,
+ "dead": 244,
+ "published": 664,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -23,9 +23,14 @@
  ],
  "epg": {
   "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 165
+  "matched": 164
  },
  "dead_channels": [
+  {
+   "name": "Первый канал HD",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
   {
    "name": "Время",
    "source": "IPTVru-stable",
@@ -127,6 +132,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "15+ Music (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -218,6 +228,11 @@
   },
   {
    "name": "Channel One (Russia) (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Channel One (Russia) HD (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -412,6 +427,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Kinomix (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Kinopokaz HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -423,6 +443,11 @@
   },
   {
    "name": "Kinoseriya (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Kinosvidanie (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -992,11 +1017,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Yalta TV (480p) [Geo-blocked]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Zapad 24 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1004,26 +1024,6 @@
   {
    "name": "Zhivi! (1080p)",
    "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Zoo TV (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Zvezda HD (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Zvezda Plus (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "312 Kino (406p)",
-   "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
  ]
