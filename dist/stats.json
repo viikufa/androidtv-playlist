@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-03 10:10 UTC",
- "total_unique": 908,
- "alive": 664,
- "dead": 244,
- "published": 664,
+ "generated": "2026-10-04 10:51 UTC",
+ "total_unique": 909,
+ "alive": 666,
+ "dead": 243,
+ "published": 666,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -18,7 +18,7 @@
   {
    "source": "iptv-org-ru-extra",
    "status": "ok",
-   "entries": 158
+   "entries": 159
   }
  ],
  "epg": {
@@ -132,8 +132,8 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
-   "source": "iptv-org-ru",
+   "name": "Городской Телеканал-Ярославль",
+   "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
@@ -148,6 +148,11 @@
   },
   {
    "name": "A2 (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Afontovo",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -362,6 +367,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Gorodskoy telekanal (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Govorit Moskva (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -427,11 +437,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Kinomix (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Kinopokaz HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -453,11 +458,6 @@
   },
   {
    "name": "Kluch (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Kongress TV (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
