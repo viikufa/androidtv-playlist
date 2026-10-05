@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-04 10:51 UTC",
+ "generated": "2026-10-05 11:59 UTC",
  "total_unique": 909,
- "alive": 666,
- "dead": 243,
- "published": 666,
+ "alive": 671,
+ "dead": 238,
+ "published": 671,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -22,8 +22,8 @@
   }
  ],
  "epg": {
-  "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 164
+  "url": null,
+  "matched": null
  },
  "dead_channels": [
   {
@@ -132,8 +132,8 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Городской Телеканал-Ярославль",
-   "source": "IPTVru-stable",
+   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
@@ -148,11 +148,6 @@
   },
   {
    "name": "A2 (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Afontovo",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -243,11 +238,6 @@
   },
   {
    "name": "City Eden KinoSemya [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Crimea 24",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -363,11 +353,6 @@
   },
   {
    "name": "Glazami Turista (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Gorodskoy telekanal (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -643,6 +628,11 @@
   },
   {
    "name": "Oplot 2 (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Oplot TV (1080p) [Geo-blocked]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -1023,6 +1013,16 @@
   },
   {
    "name": "Zhivi! (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Zoo TV (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Zvezda HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
