@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-06 11:39 UTC",
+ "generated": "2026-10-08 11:44 UTC",
  "total_unique": 913,
- "alive": 666,
- "dead": 247,
- "published": 666,
+ "alive": 664,
+ "dead": 249,
+ "published": 664,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,12 +13,12 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 532
+   "entries": 533
   },
   {
    "source": "iptv-org-ru-extra",
    "status": "ok",
-   "entries": 159
+   "entries": 158
   }
  ],
  "epg": {
@@ -33,6 +33,11 @@
   },
   {
    "name": "Время",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Про бизнес",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -147,11 +152,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": ".red (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "A1 (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -247,12 +247,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "City Eden Classic Music [Not 24/7]",
+   "name": "City Eden KinoSemya [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "City Eden KinoSemya [Not 24/7]",
+   "name": "Crimea 24",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -382,7 +382,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "History 2 (Russia) (1080p)",
+   "name": "History 2 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -457,7 +457,17 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Kinosvidanie (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Kluch (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "KN Music TV",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -917,7 +927,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "TNT HD (1080p)",
+   "name": "TNT (Russia) HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -1013,16 +1023,6 @@
   },
   {
    "name": "Vital Drive",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Volgograd 24 (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Vostok 24 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
