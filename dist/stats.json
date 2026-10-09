@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-08 11:44 UTC",
+ "generated": "2026-10-09 11:38 UTC",
  "total_unique": 913,
- "alive": 664,
- "dead": 249,
- "published": 664,
+ "alive": 660,
+ "dead": 253,
+ "published": 660,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -33,11 +33,6 @@
   },
   {
    "name": "Время",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Про бизнес",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -93,6 +88,11 @@
   },
   {
    "name": "Телекафе",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Среда",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -327,6 +327,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "FashionTV (Russia) (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Fast&FunBox (Russia) HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -457,17 +462,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Kinosvidanie (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Kluch (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "KN Music TV",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -532,7 +527,17 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Mir Seriala (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Mosfilm Gold Collection (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Moya Planeta (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -862,6 +867,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "START Air (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "START Air HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1013,16 +1023,6 @@
   },
   {
    "name": "viju Nature HD (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "viju+ Sport HD (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Vital Drive",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
