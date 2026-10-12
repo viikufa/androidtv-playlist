@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-11 11:10 UTC",
- "total_unique": 893,
- "alive": 663,
- "dead": 230,
- "published": 663,
+ "generated": "2026-10-12 12:39 UTC",
+ "total_unique": 894,
+ "alive": 683,
+ "dead": 211,
+ "published": 683,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,7 +13,7 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 514
+   "entries": 515
   },
   {
    "source": "iptv-org-ru-extra",
@@ -117,17 +117,17 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Шансон ТВ",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "FAN",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": "Любимое Кино",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Честный детектив",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -144,21 +144,6 @@
   {
    "name": "Городской Телеканал-Ярославль",
    "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Осетия-Ирыстон",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Первый Тульский",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
-   "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
@@ -247,42 +232,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "City Eden AutoGid [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden KinoDok [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden KinoKlassika [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden KinoKomediya [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "City Eden KinoSemya [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden Play [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden TeleNovella [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden TV [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -312,7 +262,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "DocuBox Russia (1080p)",
+   "name": "DocuBox Russia",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -328,11 +278,6 @@
   },
   {
    "name": "English Class (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Euronews Russian (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -437,11 +382,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Kinosvidanie (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Kluch (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -463,6 +403,11 @@
   },
   {
    "name": "Match! Igra (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Match! Premier (480p) [Geo-blocked]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -597,22 +542,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Ohotnik i rybolov HD (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Okhota i rybalka (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Oplot 2 (720p) [Geo-blocked]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Perviy otdel (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -702,6 +632,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Russia-24 HD (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Russia-K +2 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -767,11 +702,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Shokiruyushchee HD (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Shot TV (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -783,11 +713,6 @@
   },
   {
    "name": "Sibir 24 KYA (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Smotrim Chestnyy Detektiv (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -922,11 +847,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "viju TV1000 (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Vital Drive",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -967,21 +887,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "100% NEWS (576p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "312 Kino (406p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "312 TV (406p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "+TV (576p) [Geo-blocked]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1007,22 +912,117 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Belarus-2 HD (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belarus-3 HD (1080p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Bilim Ilim (480p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": "Black Sea TV",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "CGTN Russian (1080p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "ElTR (480p) [Not 24/7]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"General\",eQtv",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Gribu visu zinat (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "KidZone Max SD (1080p) [Geo-blocked]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "like Gecko) Chrome/124.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Kvartal TV",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Luxe TV (1080p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Mangystay (540p) [Not 24/7]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Movify Kino (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Music (480p) [Not 24/7]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "MuzzOne",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "N4 (360p) [Not 24/7]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Nash Kinomir (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "New Channel Pop! (480p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Next TV (1080p) [Not 24/7]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Osh Pirim (1080p) [Not 24/7]",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Culture;News\",Ost West (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "OTV (Estonia)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Qonaev Media",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports+ Ukraine (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
