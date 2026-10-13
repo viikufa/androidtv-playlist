@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-12 12:39 UTC",
+ "generated": "2026-10-13 12:24 UTC",
  "total_unique": 894,
- "alive": 683,
- "dead": 211,
- "published": 683,
+ "alive": 682,
+ "dead": 212,
+ "published": 682,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -22,8 +22,8 @@
   }
  ],
  "epg": {
-  "url": null,
-  "matched": null
+  "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
+  "matched": 170
  },
  "dead_channels": [
   {
@@ -107,6 +107,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "RU TV",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Жар Птица",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -148,11 +153,6 @@
   },
   {
    "name": "15+ Music (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": ".red (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -397,6 +397,11 @@
    "reason": "не похож на поток; не похож на поток"
   },
   {
+   "name": "Leomax 24 (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Match! Arena (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -493,6 +498,11 @@
   },
   {
    "name": "Nauka (Russia) (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Nickelodeon (Russia) (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -907,11 +917,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Belarus-1 HD (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Bilim Ilim (480p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1018,11 +1023,6 @@
   },
   {
    "name": "Qonaev Media",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Sports\",Setanta Sports+ Ukraine (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
