@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-19 10:27 UTC",
+ "generated": "2026-10-20 09:46 UTC",
  "total_unique": 884,
- "alive": 648,
- "dead": 236,
- "published": 648,
+ "alive": 641,
+ "dead": 243,
+ "published": 641,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -23,11 +23,16 @@
  ],
  "epg": {
   "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 165
+  "matched": 163
  },
  "dead_channels": [
   {
    "name": "Первый канал HD",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "CTV.BY HD",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -243,6 +248,11 @@
   },
   {
    "name": "Channel One (Russia) HD (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "City Eden KinoDrama [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -607,11 +617,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "OSN",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Pobeda (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -623,6 +628,11 @@
   },
   {
    "name": "Pro Lyubov (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Quadro (2160p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -777,6 +787,36 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Smotrim 100% Detskoe (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Smotrim 100% Fakty (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Smotrim 100% Klassika (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Smotrim 100% Lyubov (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Smotrim 100% Muzhskoe (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Smotrim 100% Prazdnik (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Solnce (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -858,6 +898,11 @@
   },
   {
    "name": "TV Centr (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "TV PRO",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -978,51 +1023,6 @@
   },
   {
    "name": "Ala-Too 24 (480p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Almaty TV (576p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "ARTN TV (1080p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Atameken Business (576p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belarus-1 HD (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belarus-2 HD (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belarus-3 HD (1080p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Bilim Ilim (480p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Black Sea TV",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Carousel International (576p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
