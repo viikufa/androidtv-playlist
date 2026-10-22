@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-21 09:48 UTC",
- "total_unique": 883,
- "alive": 642,
+ "generated": "2026-10-22 09:47 UTC",
+ "total_unique": 884,
+ "alive": 643,
  "dead": 241,
- "published": 642,
+ "published": 643,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,7 +13,7 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 506
+   "entries": 507
   },
   {
    "source": "iptv-org-ru-extra",
@@ -198,11 +198,6 @@
   },
   {
    "name": "Auto Plus (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Baby Time (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -612,6 +607,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "OSN",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Pobeda (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -788,16 +788,6 @@
   },
   {
    "name": "Smotrim 100% Fakty (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Smotrim 100% Klassika (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Smotrim 100% Muzhskoe (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -998,6 +988,16 @@
   },
   {
    "name": "24KZ (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "312 Kino (406p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "312 TV (406p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
