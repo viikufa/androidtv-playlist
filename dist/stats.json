@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-25 09:33 UTC",
- "total_unique": 878,
+ "generated": "2026-10-26 10:42 UTC",
+ "total_unique": 879,
  "alive": 637,
- "dead": 241,
+ "dead": 242,
  "published": 637,
  "sources": [
   {
@@ -13,7 +13,7 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 502
+   "entries": 503
   },
   {
    "source": "iptv-org-ru-extra",
@@ -122,11 +122,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Жар Птица",
-   "source": "IPTVru-stable",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Муз ТВ",
    "source": "IPTVru-stable",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -162,7 +157,17 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Грозный",
+   "source": "IPTVru-stable",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "15+ Music (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "360° (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -247,12 +252,12 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "City Eden Classic Music [Not 24/7]",
+   "name": "City Eden KinoSemya [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "City Eden KinoSemya [Not 24/7]",
+   "name": "City Eden TeleNovella [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -532,6 +537,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Nashe muzhskoe HD (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "National Geographic (Russia) (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -583,11 +593,6 @@
   },
   {
    "name": "o2tv (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "O! International (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -807,6 +812,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Subbota! HD (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "SuperGeroi (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1012,17 +1022,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Bilim Ilim (480p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Black Sea TV",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Carousel International (576p)",
+   "name": "Belarus-5 Internet (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
