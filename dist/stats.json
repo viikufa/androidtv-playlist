@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-08 11:39 UTC",
- "total_unique": 660,
- "alive": 460,
+ "generated": "2026-11-09 13:31 UTC",
+ "total_unique": 659,
+ "alive": 459,
  "dead": 200,
- "published": 460,
+ "published": 459,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,7 +13,7 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 505
+   "entries": 504
   },
   {
    "source": "iptv-org-ru-extra",
@@ -117,26 +117,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "City Eden KinoAction [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden KinoArt [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden KinoDrama [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden KinoKlassika [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "City Eden KinoSemya [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -217,6 +197,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Food Network (Russia) (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Friday! International Kazakhstan (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -238,11 +223,6 @@
   },
   {
    "name": "India (576p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Istoki (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -293,6 +273,11 @@
   },
   {
    "name": "Kinosvidanie (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Kongress TV (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -407,16 +392,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "NTS (1080p) [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "NTV Svoya igra (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "o2tv (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -438,6 +413,11 @@
   },
   {
    "name": "Poehali! (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Pro Business (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -742,6 +722,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "VIVA Russia",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Volgograd 24 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -792,6 +777,21 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "100% NEWS (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "312 Kino (406p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "312 TV (406p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "+TV (576p) [Geo-blocked]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -813,11 +813,6 @@
   },
   {
    "name": "Atameken Business (576p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belarus-5 Internet (1080p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -963,6 +958,11 @@
   },
   {
    "name": "NTV Mir (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Obshchestvennoe Nezavisimoe Televidenie (576p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
