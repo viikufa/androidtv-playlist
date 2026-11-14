@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-13 12:45 UTC",
+ "generated": "2026-11-14 11:54 UTC",
  "total_unique": 657,
- "alive": 462,
- "dead": 195,
- "published": 462,
+ "alive": 465,
+ "dead": 192,
+ "published": 465,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -123,11 +123,6 @@
   },
   {
    "name": "City Eden KinoSemya [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden TeleNovella [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -797,11 +792,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Belarus-5 Internet (1080p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Belsat TV",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -848,11 +838,6 @@
   },
   {
    "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "like Gecko) Chrome/149.0.0.0 Safari/537.3\" group-title=\"Movies;Series\",FilmUADrama (1080p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
