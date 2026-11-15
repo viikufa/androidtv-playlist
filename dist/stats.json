@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-14 11:54 UTC",
- "total_unique": 657,
- "alive": 465,
- "dead": 192,
- "published": 465,
+ "generated": "2026-11-15 12:25 UTC",
+ "total_unique": 653,
+ "alive": 454,
+ "dead": 199,
+ "published": 454,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,12 +13,12 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 504
+   "entries": 502
   },
   {
    "source": "iptv-org-ru-extra",
    "status": "ok",
-   "entries": 153
+   "entries": 151
   }
  ],
  "epg": {
@@ -27,12 +27,22 @@
  },
  "dead_channels": [
   {
+   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "15+ Music (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
    "name": ".red (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": ".red HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -113,6 +123,11 @@
   },
   {
    "name": "Channel One (Russia) HD (720p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Che! (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -262,11 +277,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Kinopremyera HD (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "KinoSat (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -278,6 +288,11 @@
   },
   {
    "name": "Kinouzhas (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Kongress TV (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -397,6 +412,16 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Novorossiya TV (1080p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "NTS (1080p) [Not 24/7]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "NTV (Russia) HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -408,6 +433,11 @@
   },
   {
    "name": "Okko Prajm Sport (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Oplot TV SD (1080p) [Geo-blocked]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -813,6 +843,11 @@
   },
   {
    "name": "CGTN Russian (1080p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Channel 5 International (576i)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
