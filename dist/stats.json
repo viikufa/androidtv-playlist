@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-16 13:17 UTC",
- "total_unique": 653,
- "alive": 483,
- "dead": 170,
- "published": 483,
+ "generated": "2026-11-17 14:02 UTC",
+ "total_unique": 654,
+ "alive": 485,
+ "dead": 169,
+ "published": 485,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -18,14 +18,19 @@
   {
    "source": "iptv-org-ru-extra",
    "status": "ok",
-   "entries": 151
+   "entries": 152
   }
  ],
  "epg": {
-  "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
-  "matched": 66
+  "url": null,
+  "matched": null
  },
  "dead_channels": [
+  {
+   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
   {
    "name": "15+ Music (1080p)",
    "source": "iptv-org-ru",
@@ -128,11 +133,6 @@
   },
   {
    "name": "City Eden KinoSemya [Not 24/7]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "City Eden TV [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -257,11 +257,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Kongress TV (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Kto est kto (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -372,6 +367,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Oplot TV (1080p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Patriot (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -383,11 +383,6 @@
   },
   {
    "name": "Poehali! (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Pro Business (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -797,11 +792,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "MyZen TV (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "Naxcivan TV (720p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -823,6 +813,11 @@
   },
   {
    "name": "Qonaev Media",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "RTN (United States)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
