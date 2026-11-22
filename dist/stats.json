@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-21 13:12 UTC",
- "total_unique": 661,
- "alive": 410,
- "dead": 251,
- "published": 410,
+ "generated": "2026-11-22 12:58 UTC",
+ "total_unique": 660,
+ "alive": 405,
+ "dead": 255,
+ "published": 405,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -13,7 +13,7 @@
   {
    "source": "iptv-org-ru",
    "status": "ok",
-   "entries": 509
+   "entries": 508
   },
   {
    "source": "iptv-org-ru-extra",
@@ -22,15 +22,10 @@
   }
  ],
  "epg": {
-  "url": null,
-  "matched": null
+  "url": "https://www.teleguide.info/download/new3/xmltv.xml.gz",
+  "matched": 55
  },
  "dead_channels": [
-  {
-   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
   {
    "name": "15+ Music (1080p)",
    "source": "iptv-org-ru",
@@ -42,7 +37,22 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": ".black (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": ".black HD (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": ".red (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": ".sci-fi (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -162,7 +172,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "City Eden TV [Not 24/7]",
+   "name": "City Eden TeleNovella [Not 24/7]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -173,6 +183,11 @@
   },
   {
    "name": "Crimea 24",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "Da Vinci (576p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -602,6 +617,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Oplot TV (1080p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Ostrosyuzhetnoye HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -922,11 +942,6 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "Vesti FM (720p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
    "name": "viju+ Planet HD (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -987,6 +1002,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "100% NEWS (576p)",
+   "source": "iptv-org-ru-extra",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "+TV (576p) [Geo-blocked]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1003,26 +1023,6 @@
   },
   {
    "name": "ARTN TV (1080p) [Not 24/7]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "ATR (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belarus-5 HD (1080p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Belsat TV",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Bilim Ilim (480p) [Not 24/7]",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
