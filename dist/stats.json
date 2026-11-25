@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-24 15:28 UTC",
+ "generated": "2026-11-25 15:14 UTC",
  "total_unique": 671,
- "alive": 404,
- "dead": 267,
- "published": 404,
+ "alive": 399,
+ "dead": 272,
+ "published": 399,
  "sources": [
   {
    "source": "IPTVru-stable",
@@ -26,11 +26,6 @@
   "matched": null
  },
  "dead_channels": [
-  {
-   "name": "6 TV Gorlovka (720p) [Geo-blocked]",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
   {
    "name": "15+ Music (1080p)",
    "source": "iptv-org-ru",
@@ -133,6 +128,21 @@
   },
   {
    "name": "BRIDGE Deluxe HD (576p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "BRIDGE Rap (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "BRIDGE RNB (720p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
+   "name": "BRIDGE Soul (720p) [Geo-blocked]",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -582,6 +592,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "NTV Sledstviye veli (1080p) [Geo-blocked]",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "o2tv (720p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -603,11 +618,6 @@
   },
   {
    "name": "Okko Prajm Sport (1080p)",
-   "source": "iptv-org-ru",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Osetiya-Iryston (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
@@ -882,6 +892,11 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
+   "name": "Univer TV (1080p)",
+   "source": "iptv-org-ru",
+   "reason": "нет ответа/пусто; нет ответа/пусто"
+  },
+  {
    "name": "Ural 24 (1080p)",
    "source": "iptv-org-ru",
    "reason": "нет ответа/пусто; нет ответа/пусто"
@@ -1007,22 +1022,7 @@
    "reason": "нет ответа/пусто; нет ответа/пусто"
   },
   {
-   "name": "312 Kino (406p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "312 TV (406p)",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "+TV (576p) [Geo-blocked]",
-   "source": "iptv-org-ru-extra",
-   "reason": "нет ответа/пусто; нет ответа/пусто"
-  },
-  {
-   "name": "Ala-Too 24 (480p) [Not 24/7]",
+   "name": "100% NEWS (576p)",
    "source": "iptv-org-ru-extra",
    "reason": "нет ответа/пусто; нет ответа/пусто"
   }
